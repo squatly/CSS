@@ -20,3 +20,12 @@
     color: #0047FF;
     text-decoration: line-through;
 }
+
+//Flair for people who help us on github
+//These people don't need to have flair text, but they do need a flair class of github
+.flair-github:before {
+    display: inline-block;
+    content: "";
+    width: 16px; height: 16px;
+    background:url(%%github%%)no-repeat;
+}
