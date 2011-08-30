@@ -28,9 +28,17 @@
     color: #000000;
 }
 author[href*="/flabbergasted1"]:before {
-    content: url(%%indeed%%)
+    content: url(%%indeed%%);
 }
 
+.author[href="user/DrunkenJedi"]{
+    font-size:0pt;color:white;
+}
+.author[href="DrunkenJedi"]:after{
+    font-size:7pt;
+    content:'DJ';
+    color:#8B0000;
+}
 
 
 //Flair has moved to _flair.scss
