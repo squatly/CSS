@@ -40,5 +40,12 @@ author[href*="/flabbergasted1"]:before {
     color:#8B0000;
 }
 
+.author[href$="/Rswany"] { 
+    color: #254117;
+}
+author[href$="/Rswany"]:before {
+    content: url(%%cereals%%)
+}
+
 
 //Flair has moved to _flair.scss
