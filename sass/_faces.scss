@@ -17,6 +17,144 @@
 //}
 //It is important that you get the @extend block, this makes the code much easier to edit
 
+a[href="/fy1"]:after {
+    @extend .faces;
+    background-position: -240px -30px;
+    height: 23px;
+    width: 25px;
+}
+a[href="/milk"]:after {
+    @extend .faces;
+    background-position: -210px -60px;
+    height: 25px;
+    width: 21px;
+}
+a[href="/pickletime"]:after {
+    @extend .faces;
+    background-position: -240px -87px;
+    height: 21px;
+    width: 56px;
+}
+a[href="/notsure"]:after {
+    @extend .faces;
+    background-position: -433px -315px;
+    height: 34px;
+    width: 22px;
+}
+a[href="/fuckthatshit"]:after {
+    @extend .faces;
+    background-position: 0 -180px;
+    height: 88px;
+    width: 61px;
+}
+a[href="/teethrage"]:after {
+    @extend .faces;
+    background-position: -331px -61px;
+    height: 59px;
+    width: 59px;
+}
+a[href="/foreveralone"]:after {
+    @extend .faces;
+    background-position: -330px -120px;
+    height: 95px;
+    width: 88px;
+}
+a[href="/bzz"]:after {
+    @extend .faces;
+    background-position: -125px -150px;
+    height: 28px;
+    width: 97px;
+}
+a[href="/creepy"]:after {
+    @extend .faces;
+    background-position: -300px -60px;
+    height: 31px;
+    width: 30px;
+}
+a[href="/itstime"]:after {
+    @extend .faces;
+    background-position: -270px -300px;
+    height: 41px;
+    width: 41px;
+}
+a[href="/gtroll"]:after {
+    @extend .faces;
+    background-position: -149px -300px;
+    height: 31px;
+    width: 35px;
+}
+a[href="/fap"]:after {
+    @extend .faces;
+    background-position: -331px -330px;
+    height: 45px;
+    width: 39px;
+}
+a[href="/pfttxt"]:after {
+    @extend .faces;
+    background-position: -120px -571px;
+    height: 24px;
+    width: 12px;
+}
+a[href="/biggusta"]:after {
+    @extend .faces;
+    background-position: -370px -380px;
+    height: 67px;
+    width: 65px;
+}
+a[href="/hahahahaha"]:after {
+    @extend .faces;
+    background-position: -60px -541px;
+    height: 34px;
+    width: 35px;
+}
+a[href="/2229"]:after {
+    @extend .faces;
+    background-position: -108px -403px;
+    height: 67px;
+    width: 47px;
+}
+a[href="/smokeweedeveryday"]:after {
+    @extend .faces;
+    background-position: -180px -420px;
+    height: 54px;
+    width: 45px;
+}
+a[href="/jackieeeee!"]:after {
+    @extend .faces;
+    background-position: -210px -361px;
+    height: 54px;
+    width: 95px;
+}
+a[href="/jizzsplosion"]:after {
+    @extend .faces;
+    background-position: -315px -380px;
+    height: 67px;
+    width: 50px;
+}
+a[href="/ifeelsyabreh"]:after {
+    @extend .faces;
+    background-position: -450px -30px;
+    height: 50px;
+    width: 47px;
+}
+a[href="/trollmom"]:after {
+    @extend .faces;
+    background-position: -332px -240px;
+    height: 80px;
+    width: 62px;
+}
+a[href="/femyao"]:after {
+    @extend .faces;
+    background-position: -420px -150px;
+    height: 66px;
+    width: 63px;
+}
+a[href="/ilovethebeefytaco"]:after {
+    @extend .faces;
+    background-position: -59px -270px;
+    height: 26px;
+    width: 32px;
+}
 a[href="/gyey"]:after {
     @extend .faces;
     background-position: 0 0;
@@ -41,7 +179,7 @@ a[href="/gtongue"]:after {
     height: 25px;
     width: 26px;
 }
-a[href="/gohno"]:after {
+a[href="/gohno"]:after, a[href="/gwah"]:after {
     @extend .faces;
     background-position: -120px 0;
     height: 30px;
@@ -189,7 +327,7 @@ a[href="/futext"]:after {
     @extend .faces;
     background-position: -240px -60px;
     height: 30px;
-    width: 30px;
+    width: 11px;
 }
 a[href="/pft"]:after {
     @extend .faces;
@@ -299,7 +437,6 @@ a[href="/straight"]:after {
     height: 30px;
     width: 25px;
 }
-// This one seems to be missing from the sprite sheet
 a[href="/bepinthemorning"]:after {
     @extend .faces;
     background-position: -120px -150px;
@@ -322,7 +459,7 @@ a[href="/nomegusta"]:after {
     @extend .faces;
     background-position: 0 -270px;
     height: 30px;
-    width: 30px;
+    width: 24px;
 }
 a[href="/wtf"]:after {
     @extend .faces;
@@ -360,7 +497,6 @@ a[href="/welp"]:after {
     height: 33px;
     width: 30px;
 }
-// I am not sure which this is
 a[href="/bepistrollingyoubetter"]:after {
     @extend .faces;
     background-position: -300px -60px;
@@ -379,7 +515,7 @@ a[href="/why"]:after {
     height: 30px;
     width: 30px;
 }
-a[href="/surprised"]:after {
+a[href="/surprised"]:after, a[href="/suprised"]:after {
     @extend .faces;
     background-position: -120px -270px;
     height: 30px;
@@ -394,7 +530,7 @@ a[href="/longneck"]:after {
 a[href="/sweetjesus"]:after {
     @extend .faces;
     background-position: -90px -300px;
-    height: 50px;
+    height: 38px;
     width: 40px;
 }
 a[href="/notokay"]:after {
@@ -406,18 +542,18 @@ a[href="/notokay"]:after {
 a[href="/yuno"]:after {
     @extend .faces;
     background-position: -30px -360px;
-    height: 46px;
-    width: 41px;
+    height: 44px;
+    width: 42px;
 }
-a[href="/awyeah"]:after {
+a[href="/awyeah"]:after, a[href="/awyea"]:after {
     @extend .faces;
     background-position: -90px -360px;
-    height: 60px;
-    width: 40px;
+    height: 40px;
+    width: 65px;
 }
-a[href="/ohisthatacarrot"]:after {
+a[href="/ohisthatacarrot"]:after, a[href="/carrt"]:after {
     @extend .faces;
-    background-position: -150px -360px;
+    background-position: -160px -360px;
     height: 30px;
     width: 32px;
 }
@@ -436,7 +572,7 @@ a[href="/jackieeeee"]:after {
 a[href="/aintthatsomeshit"]:after {
     @extend .faces;
     background-position: -210px -300px;
-    height: 50px;
+    height: 41px;
     width: 50px;
 }
 a[href="/igotthis"]:after {
@@ -499,14 +635,12 @@ a[href="/vuvu"]:after {
     height: 30px;
     width: 30px;
 }
-// This one doesn't seem to have an image in this vicinity?
 a[href="/pfttext"]:after {
     @extend .faces;
     background-position: -120px -570px;
     height: 30px;
     width: 30px;
 }
-// I don't know how the spacing should be on this one?
 a[href="/indeed"]:after {
     @extend .faces;
     background-position: -450px 0;
@@ -597,12 +731,11 @@ a[href="/toomuchweed"]:after {
     height: 54px;
     width: 45px;
 }
-// I'm not sure which sprite this corresponds to, so it is wrong
-a[href="/chrisbrpwned"]:after {
+a[href="/chrisbrpwnd"]:after, a[href="/21424"]:after {
     @extend .faces;
     background-position: -150px -480px;
-    height: 30px;
-    width: 30px;
+    height: 116px;
+    width: 91px;
 }
 a[href="/biebs"]:after {
     @extend .faces;
@@ -612,9 +745,9 @@ a[href="/biebs"]:after {
 }
 a[href="/cereal"]:after {
     @extend .faces;
-    background-position: -60px -420px;
+    background-position: -47px -414px;
     height: 33px;
-    width: 36px;
+    width: 40px;
 }
 a[href="/foreveralonelaugh"]:after {
     @extend .faces;
@@ -624,23 +757,33 @@ a[href="/foreveralonelaugh"]:after {
 }
 a[href="/ohcrap"]:after {
     @extend .faces;
-    background-position: 0 -360px;
-    height: 30px;
+    background-position: 0 -420px;
+    height: 29px;
     width: 30px;
 }
-// I'm not sure which sprite this corresponds to, so it is wrong
 a[href="/jasonqualman"]:after {
     @extend .faces;
-    background-position: -90px -420px;
-    height: 30px;
-    width: 30px;
+    background-position: -80px -485px;
+    height: 50px;
+    width: 36px;
 }
-// I'm not sure which sprite this corresponds to, so it is wrong
+a[href="/fyl"]:after {
+    @extend .faces;
+    background-position: -90px -480px;
+    height: 50px;
+    width: 36px;
+}
+a[href="/rmilk"]:after {
+    @extend .faces;
+    background-position: -90px -60px;
+    height: 25px;
+    width: 21px;
+}
 a[href="/ewbtetext"]:after {
     @extend .faces;
-    background-position: -120px -480px;
-    height: 30px;
-    width: 30px;
+    background-position: -120px -541px;
+    height: 10px;
+    width: 14px;
 }
 a[href="/trap"]:after {
     @extend .faces;
