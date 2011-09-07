@@ -11,8 +11,44 @@
     color:#C0C0C0;
 }
 
-.author[href*="user/squatly"]{
+.author[href*="user/squatly"] {
     color:#FFE87C;
+}
+
+.author[href*="/delicious_sandwich"] {
+    color: #ff4500; 
+}
+.author[href*="/delicious_sandwich"]:after {
+    content: ' √';
+    color: #4297ff; 
+    font-weight: bold;
+}
+
+.author[href*="/flabbergasted1"] { 
+    color: #000000;
+}
+author[href*="/flabbergasted1"]:before {
+    content: url(%%indeed%%);
+}
+
+.author[href*="user/DrunkenJedi"]{
+    font-size:0pt;color:white;
+}
+.author[href*="DrunkenJedi"]:after{
+    font-size:7pt;
+    content:'DJ';
+    color:#8B0000;
+}
+
+.author[href*="/Rswany"] { 
+    color: #254117;
+}
+author[href*="/Rswany"]:before {
+    content: url(%%cereals%%)
+}
+
+.author[href*="/Eustis"] {
+    color: #2FC5F7;
 }
 
 //Flair has moved to _flair.scss
