@@ -28,7 +28,10 @@
     color: #000000;
 }
 author[href*="/flabbergasted1"]:before {
-    content: url(%%indeed%%);
+    @extend .faces;
+    background-position: -450px 0;
+    height: 25px;
+    width: 15px;
 }
 
 .author[href*="user/DrunkenJedi"]{
