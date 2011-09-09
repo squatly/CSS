@@ -54,4 +54,12 @@ author[href*="/Rswany"]:before {
     color: #2FC5F7;
 }
 
+.author[href$="/edify"] { 
+    text-transform: capitalize; 
+}
+
+.author[href$="/edify"]:after {
+    content: " Soprano " url(%%tsoprano%%);
+}
+
 //Flair has moved to _flair.scss
